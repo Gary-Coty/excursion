@@ -5,12 +5,12 @@ html {
 body {
     font-family: Verdana;
     background-color: black;
+    text-align: center;
 }
 
 section {
-    width: min(75ch, 100% - 4rem);
+    width: min(200ch, 100% - 4rem);
     margin-inline: auto;
-    text-align: center;
 }
 
 img,
@@ -18,9 +18,30 @@ svg,
 video {
     max-width: 100%;
     display: block;
+    margin: 0 auto;
 }
 
 .copyright{
     text-align: right;
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+a {
+    color: aquamarine;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p,
+span {
+    font-size: 1.3125rem;
     color: gray;
 }
