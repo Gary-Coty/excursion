@@ -1,0 +1,26 @@
+html {
+    color-scheme: dark;
+}
+
+body {
+    font-family: Verdana;
+    background-color: black;
+}
+
+section {
+    width: min(75ch, 100% - 4rem);
+    margin-inline: auto;
+    text-align: center;
+}
+
+img,
+svg,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+.copyright{
+    text-align: right;
+    color: gray;
+}
